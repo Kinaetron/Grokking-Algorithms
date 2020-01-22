@@ -20,14 +20,17 @@ namespace Binary_Search
                 int mid = (low + high) / 2;
                 int guess = list[mid];
 
-                if(guess == answer) {
+                if (guess == answer)
+                {
                     return mid;
                 }
 
-                if(guess > answer) {
+                if (guess > answer)
+                {
                     high -= 1;
                 }
-                else {
+                else
+                {
                     low += 1;
                 }
             }
