@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Selection Sort", "Selection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Recursion", "Recursion\Recursion.csproj", "{199FD407-723D-4035-AC5F-CB9D0F97D6DA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sum Recursion", "Sum Recursion\Sum Recursion.csproj", "{7D58A284-3D1B-41F7-9356-9D8705F1574A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quick Sort", "Quick Sort\Quick Sort.csproj", "{5C0B0D9A-C0A9-4DFC-8178-0912E65F2D0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{199FD407-723D-4035-AC5F-CB9D0F97D6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{199FD407-723D-4035-AC5F-CB9D0F97D6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{199FD407-723D-4035-AC5F-CB9D0F97D6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D58A284-3D1B-41F7-9356-9D8705F1574A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D58A284-3D1B-41F7-9356-9D8705F1574A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D58A284-3D1B-41F7-9356-9D8705F1574A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D58A284-3D1B-41F7-9356-9D8705F1574A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0B0D9A-C0A9-4DFC-8178-0912E65F2D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0B0D9A-C0A9-4DFC-8178-0912E65F2D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0B0D9A-C0A9-4DFC-8178-0912E65F2D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0B0D9A-C0A9-4DFC-8178-0912E65F2D0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
