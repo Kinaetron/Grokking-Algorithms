@@ -62,7 +62,7 @@ namespace Dijkstras_Algorithm
             {
                 var cost = costs[node.Name];
                 var neighbours = new List<Node>();
-                neighbours.AddRange(graph.FindAll(node => node.Key == node.Name));
+                neighbours.AddRange(graph.FindAll(n => n.Key == node.Name));
 
                 for (int i = 0; i < neighbours.Count; i++)
                 {
@@ -94,7 +94,7 @@ namespace Dijkstras_Algorithm
             {
                 var cost = node.Value;
 
-                if(cost < lowestCost && !processed.Exists(n => n.Key == node.Key))
+                if(cost < lowestCost && !processed.Exists(n => n.Name == node.Key))
                 {
                     lowestCost = cost;
                     lowestCostNode = graph.Find(n => n.Name == node.Key);
